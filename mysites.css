@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+    
+  .header{
+    min-height: 90px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  .items{
+    display: flex;
+    flex-flow: row;
+    color: #ffffff;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+  }
+  
+  .name{
+    display: block;
+    margin-right: auto;
+  }
+  
+  .items li{
+    padding: 10px;
+  }
+  
+  .Alexander{
+    width: 100%;
+    background-image: url('https://www.intex-press.by/wp-content/uploads/2017/05/d4d3794e60cc4d6882266baceaebf7b4.jpg');
+    height: 600px;
+    text-align: center;
+    color: black;
+    background-size: cover;
+  }
+  
+  .Alexander img{
+    margin-top: 45px;
+  }
+  
+  .media{
+    margin-top: 20px;
+  }
+  
+  h3{
+    background-color: aliceblue;
+    display: table;
+    margin: auto;
+    padding: 7px;
+    border-radius: 12px;
+    border-color: black;
+  }
+  
+  #me{
+    background-color: aliceblue;
+    display: table;
+    margin: auto;
+    padding: 7px;
+    border-radius: 12px;
+    border-color: black;
+    font-size: 20px;
+  }
+
+  .card{
+    padding: 10px;
+    float: left;
+    width: 23.5%;
+    margin-left: 450px;
+    margin-top: 25px;
+  }
+  
+  footer{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    margin-top: 420px ;
+  }
